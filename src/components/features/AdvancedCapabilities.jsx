@@ -22,7 +22,7 @@ const AdvancedCapabilities = () => {
 
       <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 sm:gap-8">
         {/* Product Suggestion Agent */}
-        <div className="group bg-gradient-to-br from-blue-50 to-indigo-50 rounded-2xl p-6 sm:p-8 border border-blue-200 card-hover">
+        <div className="group bg-blue-50 rounded-2xl p-6 sm:p-8 border border-blue-200 card-hover">
           <div className="flex items-center mb-4 sm:mb-6">
             <div className="w-12 h-12 bg-blue-600 rounded-xl flex items-center justify-center mr-4">
               <Search className="w-6 h-6 text-white" />
@@ -58,7 +58,7 @@ const AdvancedCapabilities = () => {
         </div>
 
         {/* Visual Content Agent */}
-        <div className="group bg-gradient-to-br from-purple-50 to-pink-50 rounded-2xl p-6 sm:p-8 border border-purple-200 card-hover">
+        <div className="group bg-purple-50 rounded-2xl p-6 sm:p-8 border border-purple-200 card-hover">
           <div className="flex items-center mb-4 sm:mb-6">
             <div className="w-12 h-12 bg-purple-600 rounded-xl flex items-center justify-center mr-4">
               <Image className="w-6 h-6 text-white" />
@@ -94,7 +94,7 @@ const AdvancedCapabilities = () => {
         </div>
 
         {/* Proactive Engagement Agent */}
-        <div className="group bg-gradient-to-br from-teal-50 to-cyan-50 rounded-2xl p-6 sm:p-8 border border-teal-200 card-hover">
+        <div className="group bg-teal-50 rounded-2xl p-6 sm:p-8 border border-teal-200 card-hover">
           <div className="flex items-center mb-4 sm:mb-6">
             <div className="w-12 h-12 bg-teal-600 rounded-xl flex items-center justify-center mr-4">
               <MessageCircle className="w-6 h-6 text-white" />
@@ -128,7 +128,7 @@ const AdvancedCapabilities = () => {
         </div>
 
         {/* Inventory Management Agent */}
-        <div className="group bg-gradient-to-br from-orange-50 to-red-50 rounded-2xl p-6 sm:p-8 border border-orange-200 card-hover">
+        <div className="group bg-orange-50 rounded-2xl p-6 sm:p-8 border border-orange-200 card-hover">
           <div className="flex items-center mb-4 sm:mb-6">
             <div className="w-12 h-12 bg-orange-600 rounded-xl flex items-center justify-center mr-4">
               <Database className="w-6 h-6 text-white" />
@@ -162,7 +162,7 @@ const AdvancedCapabilities = () => {
         </div>
 
         {/* Customer Support Agent */}
-        <div className="group bg-gradient-to-br from-green-50 to-emerald-50 rounded-2xl p-6 sm:p-8 border border-green-200 card-hover">
+        <div className="group bg-green-50 rounded-2xl p-6 sm:p-8 border border-green-200 card-hover">
           <div className="flex items-center mb-4 sm:mb-6">
             <div className="w-12 h-12 bg-green-600 rounded-xl flex items-center justify-center mr-4">
               <Users className="w-6 h-6 text-white" />
@@ -199,7 +199,7 @@ const AdvancedCapabilities = () => {
         </div>
 
         {/* Analytics & Insights Agent */}
-        <div className="group bg-gradient-to-br from-indigo-50 to-blue-50 rounded-2xl p-6 sm:p-8 border border-indigo-200 card-hover">
+        <div className="group bg-indigo-50 rounded-2xl p-6 sm:p-8 border border-indigo-200 card-hover">
           <div className="flex items-center mb-4 sm:mb-6">
             <div className="w-12 h-12 bg-indigo-600 rounded-xl flex items-center justify-center mr-4">
               <BarChart3 className="w-6 h-6 text-white" />

@@ -97,10 +97,7 @@ const Contact = () => {
         <div className="text-center mb-16">
           <h2 className="text-4xl md:text-5xl font-bold text-gray-900 mb-6">
             Get in Touch with
-            <span className="text-transparent bg-clip-text bg-gradient-to-r from-blue-600 to-teal-600">
-              {' '}
-              komoChat by Qbexel
-            </span>
+            <span className="text-primary-600"> komoChat by Qbexel</span>
           </h2>
           <p className="text-xl text-gray-600 max-w-3xl mx-auto">
             Ready to see how our human-like AI agents can transform your social
@@ -179,7 +176,7 @@ const Contact = () => {
                 <button
                   data-cal-link="qbexel"
                   data-cal-config='{"layout":"month_view"}'
-                  className="bg-gradient-to-r from-blue-600 to-teal-600 hover:from-blue-700 hover:to-teal-700 text-white flex items-center justify-center w-full py-3 px-4 rounded-lg font-semibold transition-all duration-200 smooth-hover"
+                  className="bg-primary-600 hover:bg-primary-700 text-white flex items-center justify-center w-full py-3 px-4 rounded-lg font-semibold transition-all duration-200 smooth-hover"
                 >
                   <Calendar className="w-4 h-4 mr-2" />
                   Schedule Demo
@@ -187,7 +184,7 @@ const Contact = () => {
                 <a href="callto:+8801982780739" className="w-full block">
                   <Button
                     variant="outline"
-                    className="border-2 border-blue-600 text-blue-600 hover:bg-blue-600 hover:text-white flex items-center justify-center transition-all duration-200 w-full smooth-hover"
+                    className="border-2 border-primary-600 text-primary-600 hover:bg-primary-600 hover:text-white flex items-center justify-center transition-all duration-200 w-full smooth-hover"
                   >
                     <Mail className="w-4 h-4 mr-2" />
                     Contact Sales
@@ -331,7 +328,7 @@ const Contact = () => {
                 type="submit"
                 loading={isSubmitting}
                 disabled={isSubmitting}
-                className="w-full bg-gradient-to-r from-blue-600 to-teal-600 hover:from-blue-700 hover:to-teal-700 text-white py-3 text-lg font-semibold shadow-lg hover:shadow-xl transition-all duration-300"
+                className="w-full bg-primary-600 hover:bg-primary-700 text-white py-3 text-lg font-semibold shadow-lg hover:shadow-xl transition-all duration-300"
               >
                 {!isSubmitting && <Send className="w-5 h-5 mr-2" />}
                 {isSubmitting ? 'Sending...' : 'Send Message'}

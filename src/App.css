@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;500;600;700;800&display=swap');
+
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
@@ -11,6 +13,7 @@
 html {
   scroll-behavior: smooth;
   scroll-padding-top: 80px; /* Account for sticky header */
+  font-family: 'Outfit', sans-serif;
 }
 
 /* Optimize animations for performance */

@@ -1,6 +1,7 @@
 import { useState } from 'react';
 import { Button } from '@/components/ui/button.jsx';
 import { Menu, X } from 'lucide-react';
+import LogoLight from '../assests/LogoLight.png';
 
 const Header = () => {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
@@ -24,7 +25,7 @@ const Header = () => {
                   by
                 </span>
                 <img
-                  src="/src/assests/LogoLight.png"
+                  src={LogoLight}
                   alt="Qbexel"
                   className="h-6 w-auto object-contain opacity-70 group-hover:opacity-100 transition-opacity duration-300"
                 />

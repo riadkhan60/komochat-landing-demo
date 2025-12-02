@@ -35,7 +35,7 @@ const UseCases = () => {
 
       <div className="space-y-12">
         {/* E-commerce Product Inquiry Use Case */}
-        <div className="bg-gradient-to-br from-blue-50 to-indigo-50 rounded-2xl sm:rounded-3xl p-6 sm:p-8 md:p-12 border border-blue-100">
+        <div className="bg-blue-50 rounded-2xl sm:rounded-3xl p-6 sm:p-8 md:p-12 border border-blue-100">
           <div className="grid grid-cols-1 lg:grid-cols-2 gap-6 sm:gap-8 items-start">
             <div>
               <div className="flex items-center mb-6">
@@ -214,7 +214,7 @@ const UseCases = () => {
               </div>
 
               {/* AI Processing Flow */}
-              <div className="mt-6 p-4 bg-gradient-to-r from-blue-600 to-blue-700 rounded-xl text-white">
+              <div className="mt-6 p-4 bg-blue-600 rounded-xl text-white">
                 <p className="text-sm text-blue-100 mb-3 font-semibold">
                   AI Response Flow
                 </p>
@@ -242,7 +242,7 @@ const UseCases = () => {
         </div>
 
         {/* Product Image Request Use Case */}
-        <div className="bg-gradient-to-br from-teal-50 to-cyan-50 rounded-3xl p-8 md:p-12 border border-teal-100">
+        <div className="bg-teal-50 rounded-3xl p-8 md:p-12 border border-teal-100">
           <div className="grid grid-cols-1 lg:grid-cols-2 gap-8 items-start">
             <div>
               <div className="flex items-center mb-6">
@@ -477,7 +477,7 @@ const UseCases = () => {
               </div>
 
               {/* AI Processing Flow */}
-              <div className="mt-6 p-4 bg-gradient-to-r from-teal-600 to-teal-700 rounded-xl text-white">
+              <div className="mt-6 p-4 bg-teal-600 rounded-xl text-white">
                 <p className="text-sm text-teal-100 mb-3 font-semibold">
                   AI Processing Flow
                 </p>
@@ -505,7 +505,7 @@ const UseCases = () => {
         </div>
 
         {/* Multi-Business Agency Use Case */}
-        <div className="bg-gradient-to-br from-purple-50 to-pink-50 rounded-3xl p-8 md:p-12 border border-purple-100">
+        <div className="bg-purple-50 rounded-3xl p-8 md:p-12 border border-purple-100">
           <div className="text-center mb-8">
             <div className="flex items-center justify-center mb-4">
               <div className="w-12 h-12 bg-purple-600 rounded-xl flex items-center justify-center mr-4">

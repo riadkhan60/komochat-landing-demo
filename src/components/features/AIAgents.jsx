@@ -19,8 +19,7 @@ const AIAgents = () => {
       icon: MessageCircle,
       color: 'text-blue-600',
       bgColor: 'bg-blue-100',
-      gradientFrom: 'from-blue-600',
-      gradientTo: 'to-blue-700',
+      headerBg: 'bg-blue-600',
       capabilities: [
         {
           icon: Brain,
@@ -45,8 +44,7 @@ const AIAgents = () => {
       icon: Image,
       color: 'text-purple-600',
       bgColor: 'bg-purple-100',
-      gradientFrom: 'from-purple-600',
-      gradientTo: 'to-purple-700',
+      headerBg: 'bg-purple-600',
       capabilities: [
         {
           icon: Eye,
@@ -71,8 +69,7 @@ const AIAgents = () => {
       icon: ShoppingCart,
       color: 'text-teal-600',
       bgColor: 'bg-teal-100',
-      gradientFrom: 'from-teal-600',
-      gradientTo: 'to-teal-700',
+      headerBg: 'bg-teal-600',
       capabilities: [
         {
           icon: Database,
@@ -99,10 +96,7 @@ const AIAgents = () => {
       <div className="text-center mb-16">
         <h2 className="text-4xl md:text-5xl font-bold text-gray-900 mb-6">
           Meet Your
-          <span className="text-transparent bg-clip-text bg-gradient-to-r from-blue-600 to-teal-600">
-            {' '}
-            Smart AI Agents
-          </span>
+          <span className="text-primary-600"> Smart AI Agents</span>
         </h2>
         <p className="text-xl text-gray-600 max-w-3xl mx-auto">
           Each agent specializes in different types of customer interactions,
@@ -126,7 +120,7 @@ const AIAgents = () => {
             >
               {/* Agent Header */}
               <div
-                className={`bg-gradient-to-br ${agent.gradientFrom} ${agent.gradientTo} p-6 sm:p-8 text-white relative`}
+                className={`${agent.headerBg} p-6 sm:p-8 text-white relative`}
               >
                 <div className="absolute top-3 right-3 sm:top-4 sm:right-4 opacity-20">
                   <IconComponent className="w-12 h-12 sm:w-16 sm:h-16" />
@@ -175,9 +169,6 @@ const AIAgents = () => {
                   })}
                 </div>
               </div>
-
-              {/* Hover Effect Overlay */}
-              <div className="absolute inset-0 bg-gradient-to-t from-black/5 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300 pointer-events-none" />
             </div>
           );
         })}
