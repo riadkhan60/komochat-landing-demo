@@ -61,7 +61,7 @@ const About = () => {
         >
           <h2 className="text-4xl md:text-5xl font-bold text-gray-900 mb-6">
             Our Story: The Vision Behind
-            <span className="text-primary-600"> komoChat</span>
+            <span className="text-brand-600"> komoChat</span>
           </h2>
           <p className="text-xl text-gray-600 max-w-3xl mx-auto leading-relaxed">
             We believe in amplifying human potential through AI that feels
@@ -284,7 +284,7 @@ const About = () => {
                   target="_blank"
                   rel="noopener noreferrer"
                 >
-                  <button className="w-full sm:w-auto bg-primary-600 hover:bg-primary-700 text-white px-8 py-4 rounded-xl font-bold text-lg transition-all duration-300 shadow-lg hover:shadow-xl hover:-translate-y-1">
+                  <button className="w-full sm:w-auto bg-brand-600 hover:bg-brand-700 text-white px-8 py-4 rounded-xl font-bold text-lg transition-all duration-300 shadow-lg hover:shadow-xl hover:-translate-y-1">
                     Watch Demo
                   </button>
                 </a>
@@ -292,7 +292,7 @@ const About = () => {
                   href="mailto:qbexel@gmail.com?subject=Sales Inquiry - komoChat by Qbexel"
                   className="w-full sm:w-auto"
                 >
-                  <button className="w-full sm:w-auto border-2 border-gray-200 text-gray-700 hover:border-primary-600 hover:text-primary-600 px-8 py-4 rounded-xl font-bold text-lg transition-all duration-300 hover:bg-gray-50">
+                  <button className="w-full sm:w-auto border-2 border-gray-200 text-gray-700 hover:border-brand-600 hover:text-brand-600 px-8 py-4 rounded-xl font-bold text-lg transition-all duration-300 hover:bg-gray-50">
                     Contact Sales
                   </button>
                 </a>

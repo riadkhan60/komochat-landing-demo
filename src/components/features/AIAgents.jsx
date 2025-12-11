@@ -67,9 +67,9 @@ const AIAgents = () => {
       name: 'Order Agent',
       description: 'Order confirmation and customer data management',
       icon: ShoppingCart,
-      color: 'text-teal-600',
-      bgColor: 'bg-teal-100',
-      headerBg: 'bg-teal-600',
+      color: 'text-brand-600',
+      bgColor: 'bg-brand-100',
+      headerBg: 'bg-brand-600',
       capabilities: [
         {
           icon: Database,
@@ -96,7 +96,7 @@ const AIAgents = () => {
       <div className="text-center mb-16">
         <h2 className="text-4xl md:text-5xl font-bold text-gray-900 mb-6">
           Meet Your
-          <span className="text-primary-600"> Smart AI Agents</span>
+          <span className="text-brand-600"> Smart AI Agents</span>
         </h2>
         <p className="text-xl text-gray-600 max-w-3xl mx-auto">
           Each agent specializes in different types of customer interactions,

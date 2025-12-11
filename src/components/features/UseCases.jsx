@@ -242,11 +242,11 @@ const UseCases = () => {
         </div>
 
         {/* Product Image Request Use Case */}
-        <div className="bg-teal-50 rounded-3xl p-8 md:p-12 border border-teal-100">
+        <div className="bg-brand-50 rounded-3xl p-8 md:p-12 border border-brand-100">
           <div className="grid grid-cols-1 lg:grid-cols-2 gap-8 items-start">
             <div>
               <div className="flex items-center mb-6">
-                <div className="w-12 h-12 bg-teal-600 rounded-xl flex items-center justify-center mr-4">
+                <div className="w-12 h-12 bg-brand-600 rounded-xl flex items-center justify-center mr-4">
                   <Image className="w-6 h-6 text-white" />
                 </div>
                 <h4 className="text-2xl font-bold text-gray-900">
@@ -257,7 +257,7 @@ const UseCases = () => {
               {/* Messenger-style Chat Interface */}
               <div className="bg-white rounded-2xl shadow-lg overflow-hidden">
                 {/* Chat Header */}
-                <div className="bg-teal-600 text-white p-4 flex items-center justify-between">
+                <div className="bg-brand-600 text-white p-4 flex items-center justify-between">
                   <div className="flex items-center">
                     <div className="w-8 h-8 bg-white/20 rounded-full flex items-center justify-center mr-3 overflow-hidden">
                       <img
@@ -268,7 +268,7 @@ const UseCases = () => {
                     </div>
                     <div>
                       <p className="font-semibold">Electronics Store</p>
-                      <p className="text-xs text-teal-100">
+                      <p className="text-xs text-brand-100">
                         Online • 1 min ago
                       </p>
                     </div>
@@ -287,7 +287,7 @@ const UseCases = () => {
                 <div className="p-4 space-y-4 max-h-96 overflow-y-auto">
                   {/* Customer Message */}
                   <div className="flex justify-end">
-                    <div className="bg-teal-500 text-white rounded-2xl rounded-br-md px-4 py-2 max-w-xs">
+                    <div className="bg-brand-500 text-white rounded-2xl rounded-br-md px-4 py-2 max-w-xs">
                       <p className="text-sm">
                         Can you show me images of the latest iPhone models? I
                         want to see the different colors available.
@@ -409,7 +409,7 @@ const UseCases = () => {
                   <div className="flex justify-start">
                     <div className="bg-gray-100 rounded-2xl rounded-bl-md p-3">
                       <div className="flex space-x-2">
-                        <button className="bg-teal-500 text-white text-xs px-3 py-1 rounded-full">
+                        <button className="bg-brand-500 text-white text-xs px-3 py-1 rounded-full">
                           View Details
                         </button>
                         <button className="bg-gray-200 text-gray-700 text-xs px-3 py-1 rounded-full">
@@ -433,7 +433,7 @@ const UseCases = () => {
                         className="bg-transparent w-full text-sm outline-none"
                       />
                     </div>
-                    <button className="p-2 bg-teal-500 text-white rounded-full">
+                    <button className="p-2 bg-brand-500 text-white rounded-full">
                       <Send className="w-4 h-4" />
                     </button>
                   </div>
@@ -446,11 +446,11 @@ const UseCases = () => {
                 Performance Metrics
               </h5>
               <div className="grid grid-cols-2 gap-4">
-                <div className="text-center p-4 bg-teal-50 rounded-xl">
+                <div className="text-center p-4 bg-brand-50 rounded-xl">
                   <div className="flex items-center justify-center mb-2">
-                    <Clock className="w-5 h-5 text-teal-600 mr-2" />
+                    <Clock className="w-5 h-5 text-brand-600 mr-2" />
                   </div>
-                  <p className="text-2xl font-bold text-teal-600">&lt;2s</p>
+                  <p className="text-2xl font-bold text-brand-600">&lt;2s</p>
                   <p className="text-sm text-gray-600">Image Response Time</p>
                 </div>
                 <div className="text-center p-4 bg-green-50 rounded-xl">
@@ -477,8 +477,8 @@ const UseCases = () => {
               </div>
 
               {/* AI Processing Flow */}
-              <div className="mt-6 p-4 bg-teal-600 rounded-xl text-white">
-                <p className="text-sm text-teal-100 mb-3 font-semibold">
+              <div className="mt-6 p-4 bg-brand-600 rounded-xl text-white">
+                <p className="text-sm text-brand-100 mb-3 font-semibold">
                   AI Processing Flow
                 </p>
                 <div className="space-y-2 text-sm">
@@ -542,8 +542,8 @@ const UseCases = () => {
             </div>
 
             <div className="bg-white rounded-xl p-6 shadow-md">
-              <div className="w-10 h-10 bg-teal-100 rounded-lg flex items-center justify-center mb-4">
-                <Zap className="w-5 h-5 text-teal-600" />
+              <div className="w-10 h-10 bg-brand-100 rounded-lg flex items-center justify-center mb-4">
+                <Zap className="w-5 h-5 text-brand-600" />
               </div>
               <h5 className="font-semibold text-gray-900 mb-2">
                 Home Services

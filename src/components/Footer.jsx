@@ -1,4 +1,5 @@
 import { Mail, Phone, MapPin, Facebook, Linkedin } from 'lucide-react';
+import LogoDark from '../assests/komochatDark.svg';
 
 const Footer = () => {
   return (
@@ -7,9 +8,13 @@ const Footer = () => {
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6 sm:gap-8">
           {/* Company Info */}
           <div className="lg:col-span-2">
-            <h3 className="text-xl sm:text-2xl font-bold mb-3 sm:mb-4">
-              komoChat <span className="text-teal-400">by Qbexel</span>
-            </h3>
+            <div className="mb-3 sm:mb-4">
+              <img
+                src={LogoDark}
+                alt="komoChat by Qbexel"
+                className="h-8 w-auto object-contain"
+              />
+            </div>
             <p className="text-gray-300 mb-4 sm:mb-6 max-w-md text-sm sm:text-base">
               Revolutionizing social media business automation with humanized AI
               that perfectly balances human creativity and artificial
@@ -17,33 +22,33 @@ const Footer = () => {
             </p>
             <div className="space-y-2">
               <div className="flex items-start text-gray-300 text-sm sm:text-base">
-                <Mail className="w-4 h-4 mr-2 text-teal-400 flex-shrink-0 mt-0.5" />
+                <Mail className="w-4 h-4 mr-2 text-brand-400 flex-shrink-0 mt-0.5" />
                 <div className="flex flex-col">
                   <a
                     href="mailto:qbexel@gmail.com"
-                    className="hover:text-teal-400 transition-colors"
+                    className="hover:text-brand-400 transition-colors"
                   >
                     qbexel@gmail.com
                   </a>
                   <a
                     href="mailto:admin@qbexel.com"
-                    className="hover:text-teal-400 transition-colors"
+                    className="hover:text-brand-400 transition-colors"
                   >
                     admin@qbexel.com
                   </a>
                 </div>
               </div>
               <div className="flex items-center text-gray-300 text-sm sm:text-base">
-                <Phone className="w-4 h-4 mr-2 text-teal-400 flex-shrink-0" />
+                <Phone className="w-4 h-4 mr-2 text-brand-400 flex-shrink-0" />
                 <a
                   href="tel:+8801982780739"
-                  className="hover:text-teal-400 transition-colors"
+                  className="hover:text-brand-400 transition-colors"
                 >
                   +880 1982-780739
                 </a>
               </div>
               <div className="flex items-start text-gray-300 text-sm sm:text-base">
-                <MapPin className="w-4 h-4 mr-2 text-teal-400 flex-shrink-0 mt-0.5" />
+                <MapPin className="w-4 h-4 mr-2 text-brand-400 flex-shrink-0 mt-0.5" />
                 <div className="flex flex-col">
                   <span>Sontosh 1902</span>
                   <span>Tangail Sadar, Tangail</span>
@@ -61,7 +66,7 @@ const Footer = () => {
               <li>
                 <a
                   href="#home"
-                  className="text-gray-300 hover:text-teal-400 transition-colors duration-200 text-sm sm:text-base focus-ring"
+                  className="text-gray-300 hover:text-brand-400 transition-colors duration-200 text-sm sm:text-base focus-ring"
                   onClick={(e) => {
                     e.preventDefault();
                     document
@@ -75,7 +80,7 @@ const Footer = () => {
               <li>
                 <a
                   href="#features"
-                  className="text-gray-300 hover:text-teal-400 transition-colors duration-200 text-sm sm:text-base focus-ring"
+                  className="text-gray-300 hover:text-brand-400 transition-colors duration-200 text-sm sm:text-base focus-ring"
                   onClick={(e) => {
                     e.preventDefault();
                     document
@@ -89,7 +94,7 @@ const Footer = () => {
               <li>
                 <a
                   href="#about"
-                  className="text-gray-300 hover:text-teal-400 transition-colors duration-200 text-sm sm:text-base focus-ring"
+                  className="text-gray-300 hover:text-brand-400 transition-colors duration-200 text-sm sm:text-base focus-ring"
                   onClick={(e) => {
                     e.preventDefault();
                     document
@@ -103,7 +108,7 @@ const Footer = () => {
               <li>
                 <a
                   href="#contact"
-                  className="text-gray-300 hover:text-teal-400 transition-colors duration-200 text-sm sm:text-base focus-ring"
+                  className="text-gray-300 hover:text-brand-400 transition-colors duration-200 text-sm sm:text-base focus-ring"
                   onClick={(e) => {
                     e.preventDefault();
                     document
@@ -126,7 +131,7 @@ const Footer = () => {
               <li>
                 <a
                   href="#privacy"
-                  className="text-gray-300 hover:text-teal-400 transition-colors duration-200 text-sm sm:text-base"
+                  className="text-gray-300 hover:text-brand-400 transition-colors duration-200 text-sm sm:text-base"
                 >
                   Privacy Policy
                 </a>
@@ -134,7 +139,7 @@ const Footer = () => {
               <li>
                 <a
                   href="#terms"
-                  className="text-gray-300 hover:text-teal-400 transition-colors duration-200 text-sm sm:text-base"
+                  className="text-gray-300 hover:text-brand-400 transition-colors duration-200 text-sm sm:text-base"
                 >
                   Terms of Service
                 </a>
@@ -142,7 +147,7 @@ const Footer = () => {
               <li>
                 <a
                   href="#cookies"
-                  className="text-gray-300 hover:text-teal-400 transition-colors duration-200 text-sm sm:text-base"
+                  className="text-gray-300 hover:text-brand-400 transition-colors duration-200 text-sm sm:text-base"
                 >
                   Cookie Policy
                 </a>
@@ -150,7 +155,7 @@ const Footer = () => {
               <li>
                 <a
                   href="#security"
-                  className="text-gray-300 hover:text-teal-400 transition-colors duration-200 text-sm sm:text-base"
+                  className="text-gray-300 hover:text-brand-400 transition-colors duration-200 text-sm sm:text-base"
                 >
                   Security
                 </a>

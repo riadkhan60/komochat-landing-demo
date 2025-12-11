@@ -61,7 +61,7 @@ const Story = () => {
           className="text-center mb-20"
         >
           <h2 className="text-4xl md:text-5xl font-bold text-gray-900 mb-6">
-            <span className="text-primary-600">The Problem</span> We Solved
+            <span className="text-brand-600">The Problem</span> We Solved
           </h2>
           <p className="text-xl text-gray-600 max-w-3xl mx-auto">
             The journey from frustrating chatbots to AI that feels genuinely

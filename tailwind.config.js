@@ -7,6 +7,18 @@ export default {
         sans: ['Outfit', 'sans-serif'],
       },
       colors: {
+        brand: {
+          50: '#f3f2ff',
+          100: '#e6e4ff',
+          200: '#cbc8ff',
+          300: '#aea9ff',
+          400: '#8f87ff',
+          500: '#756cff',
+          600: '#5b4bff',
+          700: '#4a3de0',
+          800: '#3c31b2',
+          900: '#2c2480',
+        },
         primary: {
           50: '#f0f9ff',
           100: '#e0f2fe',

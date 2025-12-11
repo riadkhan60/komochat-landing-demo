@@ -76,7 +76,7 @@ const Hero = () => {
               className="text-5xl sm:text-6xl lg:text-7xl font-extrabold text-gray-900 tracking-tight leading-[1.1] mb-6"
             >
               The AI Agent <br />
-              <span className="text-primary-600">That Feels Human</span>
+              <span className="text-brand-600">That Feels Human</span>
             </motion.h1>
 
             {/* Subheadline */}
@@ -101,7 +101,7 @@ const Hero = () => {
               >
                 <Button
                   size="lg"
-                  className="w-full sm:w-auto bg-primary-600 hover:bg-primary-700 text-white px-8 py-6 text-lg rounded-2xl shadow-lg shadow-primary-500/25 transition-all duration-300 hover:scale-105"
+                  className="w-full sm:w-auto bg-brand-600 hover:bg-brand-700 text-white px-8 py-6 text-lg rounded-2xl shadow-lg shadow-brand-500/25 transition-all duration-300 hover:scale-105"
                 >
                   Watch Demo
                   <ArrowRight className="ml-2 w-5 h-5" />
@@ -115,7 +115,7 @@ const Hero = () => {
                 <Button
                   variant="outline"
                   size="lg"
-                  className="w-full sm:w-auto border-2 border-gray-200 text-gray-700 hover:border-primary-600 hover:text-primary-600 px-8 py-6 text-lg rounded-2xl bg-white/50 backdrop-blur-sm transition-all duration-300 hover:scale-105"
+                  className="w-full sm:w-auto border-2 border-gray-200 text-gray-700 hover:border-brand-600 hover:text-brand-600 px-8 py-6 text-lg rounded-2xl bg-white/50 backdrop-blur-sm transition-all duration-300 hover:scale-105"
                 >
                   Try komoChat
                 </Button>

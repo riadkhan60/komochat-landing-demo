@@ -94,9 +94,9 @@ const AdvancedCapabilities = () => {
         </div>
 
         {/* Proactive Engagement Agent */}
-        <div className="group bg-teal-50 rounded-2xl p-6 sm:p-8 border border-teal-200 card-hover">
+        <div className="group bg-brand-50 rounded-2xl p-6 sm:p-8 border border-brand-200 card-hover">
           <div className="flex items-center mb-4 sm:mb-6">
-            <div className="w-12 h-12 bg-teal-600 rounded-xl flex items-center justify-center mr-4">
+            <div className="w-12 h-12 bg-brand-600 rounded-xl flex items-center justify-center mr-4">
               <MessageCircle className="w-6 h-6 text-white" />
             </div>
             <h4 className="text-xl font-bold text-gray-900">
@@ -109,19 +109,19 @@ const AdvancedCapabilities = () => {
           </p>
           <div className="space-y-3">
             <div className="flex items-center space-x-3">
-              <div className="w-2 h-2 bg-teal-600 rounded-full"></div>
+              <div className="w-2 h-2 bg-brand-600 rounded-full"></div>
               <span className="text-sm text-gray-700">
                 Abandoned cart recovery
               </span>
             </div>
             <div className="flex items-center space-x-3">
-              <div className="w-2 h-2 bg-teal-600 rounded-full"></div>
+              <div className="w-2 h-2 bg-brand-600 rounded-full"></div>
               <span className="text-sm text-gray-700">
                 Personalized follow-ups
               </span>
             </div>
             <div className="flex items-center space-x-3">
-              <div className="w-2 h-2 bg-teal-600 rounded-full"></div>
+              <div className="w-2 h-2 bg-brand-600 rounded-full"></div>
               <span className="text-sm text-gray-700">Seasonal promotions</span>
             </div>
           </div>

@@ -1,7 +1,7 @@
 import { useState } from 'react';
 import { Button } from '@/components/ui/button.jsx';
 import { Menu, X } from 'lucide-react';
-import LogoLight from '../assests/LogoLight.png';
+import LogoLight from '../assests/komochatlight.svg';
 
 const Header = () => {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
@@ -15,22 +15,12 @@ const Header = () => {
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="flex justify-between items-center h-20">
           {/* Logo */}
-          <div className="flex-shrink-0 group cursor-pointer">
-            <div className="flex flex-col">
-              <h1 className="text-2xl font-bold text-blue-900 leading-none tracking-tight group-hover:text-blue-700 transition-colors">
-                komoChat
-              </h1>
-              <div className="flex items-center gap-1.5 mt-0.5">
-                <span className="text-[10px] uppercase tracking-wider text-gray-500 font-medium">
-                  by
-                </span>
-                <img
-                  src={LogoLight}
-                  alt="Qbexel"
-                  className="h-6 w-auto object-contain opacity-70 group-hover:opacity-100 transition-opacity duration-300"
-                />
-              </div>
-            </div>
+          <div className="flex-shrink-0">
+            <img
+              src={LogoLight}
+              alt="komoChat by Qbexel"
+              className="h-6 w-auto object-contain"
+            />
           </div>
 
           {/* Desktop Navigation */}
@@ -59,7 +49,7 @@ const Header = () => {
               target="_blank"
               rel="noopener noreferrer"
             >
-              <Button className="bg-teal-600 hover:bg-teal-700 text-white shadow-lg shadow-teal-600/20 hover:shadow-teal-600/30 transition-all duration-300 rounded-full px-6">
+              <Button className="bg-brand-600 hover:bg-brand-700 text-white shadow-[0_12px_30px_rgba(91,75,255,0.25)] hover:shadow-[0_18px_40px_rgba(91,75,255,0.35)] transition-all duration-300 rounded-full px-6">
                 Try komoChat
               </Button>
             </a>
@@ -104,7 +94,7 @@ const Header = () => {
                   rel="noopener noreferrer"
                   className="block"
                 >
-                  <Button className="w-full bg-teal-600 hover:bg-teal-700 text-white shadow-lg shadow-teal-600/20 rounded-xl py-6">
+                  <Button className="w-full bg-brand-600 hover:bg-brand-700 text-white shadow-[0_12px_30px_rgba(91,75,255,0.25)] hover:shadow-[0_18px_40px_rgba(91,75,255,0.35)] rounded-xl py-6 transition-all duration-300">
                     Try komoChat
                   </Button>
                 </a>

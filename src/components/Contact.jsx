@@ -27,7 +27,7 @@ const Contact = () => {
     (async function () {
       const cal = await getCalApi({});
       cal('ui', {
-        styles: { branding: { brandColor: '#2563eb' } },
+        styles: { branding: { brandColor: '#5B4BFF' } },
         hideEventTypeDetails: false,
         layout: 'month_view',
       });
@@ -97,7 +97,7 @@ const Contact = () => {
         <div className="text-center mb-16">
           <h2 className="text-4xl md:text-5xl font-bold text-gray-900 mb-6">
             Get in Touch with
-            <span className="text-primary-600"> komoChat by Qbexel</span>
+            <span className="text-brand-600"> komoChat by Qbexel</span>
           </h2>
           <p className="text-xl text-gray-600 max-w-3xl mx-auto">
             Ready to see how our human-like AI agents can transform your social
@@ -115,8 +115,8 @@ const Contact = () => {
 
             <div className="space-y-4 sm:space-y-6 mb-6 sm:mb-8">
               <div className="flex items-start">
-                <div className="w-10 h-10 sm:w-12 sm:h-12 bg-blue-100 rounded-lg sm:rounded-xl flex items-center justify-center mr-3 sm:mr-4 flex-shrink-0">
-                  <Mail className="w-5 h-5 sm:w-6 sm:h-6 text-blue-600" />
+                <div className="w-10 h-10 sm:w-12 sm:h-12 bg-brand-50 rounded-lg sm:rounded-xl flex items-center justify-center mr-3 sm:mr-4 flex-shrink-0">
+                  <Mail className="w-5 h-5 sm:w-6 sm:h-6 text-brand-600" />
                 </div>
                 <div>
                   <h4 className="text-base sm:text-lg font-semibold text-gray-900 mb-1">
@@ -132,8 +132,8 @@ const Contact = () => {
               </div>
 
               <div className="flex items-start">
-                <div className="w-10 h-10 sm:w-12 sm:h-12 bg-teal-100 rounded-lg sm:rounded-xl flex items-center justify-center mr-3 sm:mr-4 flex-shrink-0">
-                  <Phone className="w-5 h-5 sm:w-6 sm:h-6 text-teal-600" />
+                <div className="w-10 h-10 sm:w-12 sm:h-12 bg-brand-100 rounded-lg sm:rounded-xl flex items-center justify-center mr-3 sm:mr-4 flex-shrink-0">
+                  <Phone className="w-5 h-5 sm:w-6 sm:h-6 text-brand-600" />
                 </div>
                 <div>
                   <h4 className="text-base sm:text-lg font-semibold text-gray-900 mb-1">
@@ -149,8 +149,8 @@ const Contact = () => {
               </div>
 
               <div className="flex items-start">
-                <div className="w-10 h-10 sm:w-12 sm:h-12 bg-purple-100 rounded-lg sm:rounded-xl flex items-center justify-center mr-3 sm:mr-4 flex-shrink-0">
-                  <MapPin className="w-5 h-5 sm:w-6 sm:h-6 text-purple-600" />
+                <div className="w-10 h-10 sm:w-12 sm:h-12 bg-brand-50 rounded-lg sm:rounded-xl flex items-center justify-center mr-3 sm:mr-4 flex-shrink-0">
+                  <MapPin className="w-5 h-5 sm:w-6 sm:h-6 text-brand-600" />
                 </div>
                 <div>
                   <h4 className="text-base sm:text-lg font-semibold text-gray-900 mb-1">
@@ -176,7 +176,7 @@ const Contact = () => {
                 <button
                   data-cal-link="qbexel"
                   data-cal-config='{"layout":"month_view"}'
-                  className="bg-primary-600 hover:bg-primary-700 text-white flex items-center justify-center w-full py-3 px-4 rounded-lg font-semibold transition-all duration-200 smooth-hover"
+                  className="bg-brand-600 hover:bg-brand-700 text-white flex items-center justify-center w-full py-3 px-4 rounded-lg font-semibold transition-all duration-200 smooth-hover"
                 >
                   <Calendar className="w-4 h-4 mr-2" />
                   Schedule Demo
@@ -184,7 +184,7 @@ const Contact = () => {
                 <a href="callto:+8801982780739" className="w-full block">
                   <Button
                     variant="outline"
-                    className="border-2 border-primary-600 text-primary-600 hover:bg-primary-600 hover:text-white flex items-center justify-center transition-all duration-200 w-full smooth-hover"
+                    className="border-2 border-brand-600 text-brand-600 hover:bg-brand-600 hover:text-white flex items-center justify-center transition-all duration-200 w-full smooth-hover"
                   >
                     <Mail className="w-4 h-4 mr-2" />
                     Contact Sales
@@ -198,7 +198,7 @@ const Contact = () => {
                 >
                   <Button
                     variant="outline"
-                    className="border-2 border-gray-300 text-gray-700 hover:border-teal-600 hover:text-teal-600 flex items-center justify-center transition-all duration-200 w-full smooth-hover"
+                    className="border-2 border-gray-300 text-gray-700 hover:border-brand-600 hover:text-brand-600 flex items-center justify-center transition-all duration-200 w-full smooth-hover"
                   >
                     <MessageSquare className="w-4 h-4 mr-2" />
                     Live Chat (WhatsApp)
@@ -217,7 +217,7 @@ const Contact = () => {
                   href="https://www.facebook.com/qbexel"
                   target="_blank"
                   rel="noopener noreferrer"
-                  className="w-10 h-10 bg-blue-600 rounded-lg flex items-center justify-center text-white hover:bg-blue-700 transition-all duration-200 interactive"
+                  className="w-10 h-10 bg-brand-600 rounded-lg flex items-center justify-center text-white hover:bg-brand-700 transition-all duration-200 interactive"
                   aria-label="Follow us on Facebook"
                 >
                   <Facebook className="w-5 h-5" />
@@ -226,7 +226,7 @@ const Contact = () => {
                   href="https://www.linkedin.com/company/104429970"
                   target="_blank"
                   rel="noopener noreferrer"
-                  className="w-10 h-10 bg-blue-700 rounded-lg flex items-center justify-center text-white hover:bg-blue-800 transition-all duration-200 interactive"
+                  className="w-10 h-10 bg-brand-700 rounded-lg flex items-center justify-center text-white hover:bg-brand-800 transition-all duration-200 interactive"
                   aria-label="Follow us on LinkedIn"
                 >
                   <Linkedin className="w-5 h-5" />
@@ -262,7 +262,7 @@ const Contact = () => {
                     value={formData.name}
                     onChange={handleChange}
                     required
-                    className="w-full px-3 sm:px-4 py-2 sm:py-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-blue-500 focus:border-transparent transition-all duration-200 text-base min-h-[44px]"
+                    className="w-full px-3 sm:px-4 py-2 sm:py-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-brand-500 focus:border-transparent transition-all duration-200 text-base min-h-[44px]"
                     placeholder="Your full name"
                   />
                 </div>
@@ -280,7 +280,7 @@ const Contact = () => {
                     value={formData.email}
                     onChange={handleChange}
                     required
-                    className="w-full px-3 sm:px-4 py-2 sm:py-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-blue-500 focus:border-transparent transition-all duration-200 text-base min-h-[44px]"
+                    className="w-full px-3 sm:px-4 py-2 sm:py-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-brand-500 focus:border-transparent transition-all duration-200 text-base min-h-[44px]"
                     placeholder="your@email.com"
                   />
                 </div>
@@ -300,7 +300,7 @@ const Contact = () => {
                   value={formData.subject}
                   onChange={handleChange}
                   required
-                  className="w-full px-3 sm:px-4 py-2 sm:py-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-blue-500 focus:border-transparent transition-all duration-200 text-base min-h-[44px]"
+                  className="w-full px-3 sm:px-4 py-2 sm:py-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-brand-500 focus:border-transparent transition-all duration-200 text-base min-h-[44px]"
                   placeholder="What can we help you with?"
                 />
               </div>
@@ -319,7 +319,7 @@ const Contact = () => {
                   onChange={handleChange}
                   required
                   rows={4}
-                  className="w-full px-3 sm:px-4 py-2 sm:py-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-blue-500 focus:border-transparent transition-all duration-200 resize-none text-base min-h-[100px]"
+                  className="w-full px-3 sm:px-4 py-2 sm:py-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-brand-500 focus:border-transparent transition-all duration-200 resize-none text-base min-h-[100px]"
                   placeholder="Tell us more about your needs..."
                 />
               </div>
@@ -328,7 +328,7 @@ const Contact = () => {
                 type="submit"
                 loading={isSubmitting}
                 disabled={isSubmitting}
-                className="w-full bg-primary-600 hover:bg-primary-700 text-white py-3 text-lg font-semibold shadow-lg hover:shadow-xl transition-all duration-300"
+                className="w-full bg-brand-600 hover:bg-brand-700 text-white py-3 text-lg font-semibold shadow-lg hover:shadow-xl transition-all duration-300"
               >
                 {!isSubmitting && <Send className="w-5 h-5 mr-2" />}
                 {isSubmitting ? 'Sending...' : 'Send Message'}
